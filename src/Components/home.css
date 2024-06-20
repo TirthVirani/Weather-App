@@ -1,0 +1,19 @@
+.contest{
+    height: 200px;
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+p{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0px;
+    color: #010101;
+    position: relative;
+    left: 0px;
+    top: 10px;
+}
+span{
+    font-size: 15px;
+    font-weight: 500;
+}
