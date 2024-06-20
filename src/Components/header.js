@@ -12,7 +12,7 @@ class Navbar extends Component {
   return (
     <nav>
         <div id='ln'>
-        <label>Weather App</label>
+        <a href='/'><label>Weather App</label></a>
         </div>
     <div>
         <ul id='navbar' className={this.state.clicked ? "#navbar active" : "#navbar"}>

@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("E:\React Js wscube tech\weather App\src\Components\sky-background.avif");
+  background-image: url("../src/Components/sky-background.avif");
   background-size: cover;
   background-attachment: fixed;
 }

@@ -115,9 +115,6 @@ class weather extends Component {
                         this.setState({
                             lat: res.coords.latitude,
                             lon: res.coords.longitude,
-                            // city: res.coords.heading,
-                            // 21.2402176
-                            // 72.8891392
                         });
                         axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=21.2402176&lon=72.8891392&appid=491d5b107d48f273ad66c02b4bef5fea`)
                         .then((result) => {

@@ -18,7 +18,7 @@ export default function search(props) {
                         <button onClick={props.searchCity} className='btn btn-primary'>Search</button>
                         <br/>
                         <h4 style={{textAlign:"center"}}>Or</h4>
-                        <h4><b>Get Co-ordinate <button className='btn fa-solid fa-location-crosshairs' onClick={props.getLocation}></button></b></h4>
+                        {/* <h4><b>Get Co-ordinate <button className='btn fa-solid fa-location-crosshairs' onClick={props.getLocation}></button></b></h4> */}
                         <div className='mt-3'style={{display:"flex"}}>
                             <div className='bg-dark text-white rounded' style={{padding:"10px"}}>Lat :</div>
                             <input 
